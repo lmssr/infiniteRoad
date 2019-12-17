@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Infinite Lights | Demo 1 | Codrops</title>
+    <title>Infinite Road</title>
     <meta name="description" content="A Three.js powered animation that resembles the nightly view of fast cars on a road." />
     <meta name="keywords" content="webgl, three.js, cars, road, highway, lights, speed, web development, demo, javascript" />
-    <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/uok8swb.css">
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <script>
@@ -20,12 +18,7 @@
     <main>
       <div class="frame">
         <div class="frame__title-wrap">
-          <h1 class="frame__title">Infinite Lights</h1>
-          <div class="frame__links">
-            <a href="https://tympanus.net/Development/webGLImageTransitions/">Previous demo</a>
-            <a href="https://tympanus.net/codrops/?p=44516">Article</a>
-            <a href="https://github.com/Anemolo/InfiniteLights">GitHub</a>
-          </div>
+          <h1 class="frame__title">Infinite Road</h1>
         </div>
         <div class="frame__info">Hint: Press to speed up</div>
       </div>
@@ -33,8 +26,7 @@
         <div id="app"></div>
         <div class="content__title-wrap">
           <span class="content__pretitle">Indigo Road Systems</span>
-          <h2 class="content__title">Traffic Ohio</h2>
-          <a class="content__link" href="#">Live updates</a>
+          <h2 class="content__title">Infinite Road</h2>
         </div>
       </div>
     </main>
@@ -56,7 +48,7 @@
         distortion: mountainDistortion,
 
         length: 400,
-        roadWidth: 9,
+        roadWidth: 15,
         islandWidth: 2,
         lanesPerRoad: 3,
 
@@ -104,7 +96,7 @@
           /***  Only these colors can be an array ***/
           leftCars: [0xff102a, 0xEB383E, 0xff102a],
           rightCars: [0xdadafa, 0xBEBAE3, 0x8F97E4],
-          sticks: 0xdadafa,
+          sticks: 0x000000,
         }
       };
 
